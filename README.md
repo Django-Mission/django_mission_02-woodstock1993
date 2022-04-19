@@ -17,7 +17,7 @@
 
 ![image](https://user-images.githubusercontent.com/67543838/163911083-e61f80a9-3623-410a-8c21-4f6405dc2494.png)
 
-### ✅ 고객센터 앱에 1:1 문의, 답변 모델 Challenge ver. 문의 리스트 화면
+### ✅ 문의 리스트 화면
 
 ![image](https://user-images.githubusercontent.com/67543838/163911227-5d71a304-80ab-4295-84ed-5f54891537c8.png)
 
@@ -25,7 +25,7 @@
   
 ![image](https://user-images.githubusercontent.com/67543838/163912222-124ec637-6707-4ccc-a3a8-0daabaa95b8c.png)
 
-### ✅ 고객센터 앱에 1:1 문의, 답변 모델 Challenge ver. 문의 리스트 화면
+### ✅ 답변 리스트 화면
 
 ![image](https://user-images.githubusercontent.com/67543838/163911273-1f4fdfa9-1c88-4b6e-839d-35e50cf341ab.png)
 
