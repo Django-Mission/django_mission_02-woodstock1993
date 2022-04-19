@@ -1,0 +1,18 @@
+<!-- templates/support/answer.html -->
+{% extends 'base.html' %}
+{% block title %} Answer {% endblock %}
+
+{% block content %}
+    <h1>답변 내역입니다.</h1>
+{%  endblock %}
+
+{% block list %}
+    <ul>
+        {% for a in answer_list %}
+            <li>답변{{a.id}}: {{a.content}}</li>
+        {% endfor %}
+    </ul>
+{% endblock %}
+{% block link %}
+    <a href="/">홈화면 바로가기 </a>
+{% endblock %}
