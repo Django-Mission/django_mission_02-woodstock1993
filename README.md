@@ -23,7 +23,7 @@
 
 ### ✅ 문의 DB 저장 내역
   
-![image](https://user-images.githubusercontent.com/67543838/163911531-ff11ab1f-678a-4e01-965a-fd3fa696c207.png)
+![image](https://user-images.githubusercontent.com/67543838/163912222-124ec637-6707-4ccc-a3a8-0daabaa95b8c.png)
 
 ### ✅ 고객센터 앱에 1:1 문의, 답변 모델 Challenge ver. 문의 리스트 화면
 
