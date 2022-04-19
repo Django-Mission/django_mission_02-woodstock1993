@@ -34,3 +34,11 @@
 ![image](https://user-images.githubusercontent.com/67543838/163911676-6eef2eb9-405b-41b5-b510-08e8040badd5.png)
   
 ### 📺  시연 영상
+
+#### ✅ 서버실행 -> 홈화면 -> 질문화면 -> 답변화면
+
+![clip_1](https://user-images.githubusercontent.com/67543838/164003738-dc2a7898-6ee9-4124-91fc-cf1d9af2a2c5.gif)
+
+#### ✅ 어드민 페이지에서 질문 및 답변 확인
+  
+![clip_2](https://user-images.githubusercontent.com/67543838/164003898-6170572f-eb38-4270-88eb-861290406946.gif)
