@@ -4,16 +4,22 @@ from django.core.validators import RegexValidator
 User = get_user_model() 
 
 class Inquiry(models.Model):
+    CATEGORY_A = 'A'
+    CATEGORY_B = 'B'
+    CATEGORY_C = 'C'
+    CATEGORY_D = 'D'
+
     CATEGORY_CHOICES =(
-        ('A','category A'),
-        ('B','category B'),
-        ('C','category C'),
-        ('D','category D'),
+        (CATEGORY_A,'category A'),
+        (CATEGORY_B,'category B'),
+        (CATEGORY_C,'category C'),
+        (CATEGORY_D,'category D'),
     )
+    
     category = models.CharField(max_length=256, choices=CATEGORY_CHOICES, default='others')
-    question = models.TextField(verbose_name='문의 질문')
+    question = models.CharField(verbose_name='문의 질문', max_length=80)
     comment = models.TextField(verbose_name='문의 내용')
-    email = models.TextField(verbose_name='작성자 이메일')
+    email = models.CharField(verbose_name='작성자 이메일', max_length=80)
     phone_number = models.CharField(
         max_length = 13,
         validators = [RegexValidator(r'^01([0|1|6|7|8|9]?)-([0-9]{3,4})-([0-9]{4})', message="Wrong format enter")],
