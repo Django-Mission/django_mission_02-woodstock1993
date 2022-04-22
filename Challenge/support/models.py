@@ -1,6 +1,6 @@
 from django.db import models
 from django.contrib.auth import get_user_model
-
+from django.core.validators import RegexValidator
 User = get_user_model() 
 
 class Inquiry(models.Model):
@@ -14,6 +14,14 @@ class Inquiry(models.Model):
     question = models.TextField(verbose_name='문의 질문')
     comment = models.TextField(verbose_name='문의 내용')
     email = models.TextField(verbose_name='작성자 이메일')
+    phone_number = models.CharField(
+        max_length = 13,
+        validators = [RegexValidator(r'^01([0|1|6|7|8|9]?)-([0-9]{3,4})-([0-9]{4})', message="Wrong format enter")],
+        null = True,
+        blank = True,
+        verbose_name='전화번호',
+        help_text = ("format: 010-1234-1234"),
+    )
     writer =  models.ForeignKey(to=User, on_delete=models.CASCADE, null=True, blank=True)
     created_at = models.DateTimeField(verbose_name='작성일', auto_now_add=True)
     updated_at = models.DateTimeField(verbose_name='최종 수정일', auto_now=True)
