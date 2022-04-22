@@ -13,6 +13,10 @@
 
 ## 프로젝트 결과물 (화면 + 영상)
 
+#### ✅ ERD
+  
+![my_project](https://user-images.githubusercontent.com/67543838/164585763-6265120f-9fb5-4155-bff0-781c173762b4.png)
+  
 ### ✅ 고객센터 앱에 1:1 문의, 답변 모델 Challenge ver. 홈화면
 
 ![image](https://user-images.githubusercontent.com/67543838/163911083-e61f80a9-3623-410a-8c21-4f6405dc2494.png)
